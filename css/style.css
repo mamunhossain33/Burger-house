@@ -1,0 +1,609 @@
+/* babes new bold font link  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* AlfaSlabOne font link  */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+/* moonsirat font link  */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+.hg{
+    min-height: 90vh;
+}
+/* top header section start here  */
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(2 0 0);
+    letter-spacing: 3px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 41px;
+    padding: 0;
+
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+
+    padding-right: 0;
+}
+.navbar-expand-lg {
+
+    padding: 0;
+}
+header{
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.top_header{
+
+display: flex;
+
+align-items: center;
+
+justify-content: flex-end;
+
+padding-top: 5px;
+}
+.top_header .logo{
+    
+width: 4%;
+    
+margin-right: 17px;
+}
+.top_header .logo img{
+    
+width: 100%;
+}
+.top_header p{
+
+margin: 0;
+
+text-transform: capitalize;
+
+font-size: 12px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 700;
+}
+/* banner section start here  */
+.banner_section{
+
+min-height: 100vh;
+}
+.banner_item{
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-between;
+    
+min-height: 120vh;
+}
+.banner_section p{
+    
+font-size: 15px;
+    
+width: 302px;
+    
+border-style: dashed;
+    
+text-align: center;
+    
+padding: 3px;
+    
+margin: 0;
+    
+margin-bottom: 10px;
+    
+letter-spacing: 1px;
+}
+.banner_section h1{
+    
+font-family: 'Alfa Slab One', cursive;
+    
+font-size: 70px;
+    
+color: #3d2514;
+    
+text-transform: uppercase;
+    
+text-shadow: 1px 3px 0px #fff;
+}
+.banner_section h4{
+    
+font-family: 'Alfa Slab One', cursive;
+    
+font-size: 39px;
+    
+color: #3d2514;
+    
+text-transform: uppercase;
+    
+text-shadow: 1px 3px 0px #fff;
+}
+.banner_img{
+
+/* width: 88%; */
+
+position: relative;
+}
+.banner_img img{
+    
+width: 100%;
+}
+/* pricing design  */
+.price{
+
+width: 100px;
+
+height: 100px;
+
+background: #e01f1f;
+
+border-radius: 50%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+position: absolute;
+
+bottom: 0;
+
+left: 37px;
+}
+.outline{
+
+padding: 10px;
+
+width: 85px;
+
+height: 85px;
+
+border: 1px dashed #fff;
+
+border-radius: 50%;
+}
+.doted{
+
+/* border: 1px dashed #fff; */
+
+/* border-radius: 50%; */
+}
+.doted h5{
+    
+margin: 0;
+    
+font-family: 'Bebas Neue';
+    
+font-size: 30px;
+}
+.doted span{
+    
+font-size: 19px;
+}
+.doted h6{
+    
+font-family: monospace;
+    
+font-size: 18px;
+    
+letter-spacing: 2px;
+    
+text-transform: uppercase;
+}
+/* small banner section start here  */
+.small_banner_img{
+
+position: relative;
+}
+.small_banner_img img{
+    
+}
+.small_banner_content{
+
+position: absolute;
+
+top: 15%;
+
+left: 6%;
+
+transform: translate(-6%,-15%);
+}
+.small_banner_content p{
+    
+margin: 0;
+}
+.small_banner_content h3{
+    
+margin: 0;
+}
+.Tasty_Burger {
+
+/* width: 208px; */
+
+/* background: red; */
+
+/* margin: auto; */
+
+/* padding: 5px; */
+
+/* letter-spacing: 1px; */
+
+/* color: #fff; */
+}
+.Tasty_Burger h4{
+
+margin: 0;
+
+background: #ffc045;
+
+width: 170px;
+
+margin: auto;
+
+font-size: 18px;
+
+padding: 5px;
+
+letter-spacing: 1px;
+}
+/* choice burger section start here */
+.choice_burger_section{
+
+}
+
+.choice_burger_section h1{
+
+font-family: 'Alfa Slab One', cursive;
+
+text-transform: uppercase;
+
+font-size: 35px;
+
+letter-spacing: 1px;
+}
+.choice_burger_section p{
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 500;
+
+font-size: 15px;
+}
+.choice_item{
+
+}
+.long_img{
+
+width: 81%;
+}
+.long_img img{/* width: 100%; */}
+
+.item_img{
+    margin: auto;
+}
+.choice_item h4{
+    
+font-size: 30px;
+}
+.choice_item p{
+    
+margin: 0;
+    
+line-height: 20px;
+    
+font-size: 14px;
+}
+.btn_order_now{
+
+margin: 0;
+
+padding: 0;
+
+padding: 10px 25px;
+
+background: #c70303;
+
+color: #fff;
+
+margin-top: 25px;
+
+font-family: 'Alfa Slab One', cursive;
+
+text-transform: uppercase;
+
+font-size: 12px;
+
+letter-spacing: 1px;
+border-radius: 0;
+transition: all .3s ease-in-out;
+}
+.btn_order_now:focus{
+    box-shadow: none;
+    
+}
+.btn_order_now:hover{
+    background: #ff3131;
+    color: #fff;
+}
+/* upcoming section start here  */
+.upcoming_section{
+
+/* box-shadow: 1px 2px 0px; */
+
+margin: 35px 0px;
+}
+.upcaming_content{
+    
+padding: 25px;
+    
+box-shadow: 1px 2px 10px 2px #e2e2e2;
+}
+.upcoming_section h4{
+    
+margin: 0;
+    
+letter-spacing: 1px;
+    
+margin-bottom: 8px;
+}
+.upcoming_section h3{
+    
+font-family: 'Alfa Slab One', cursive;
+    
+text-transform: uppercase;
+    
+margin: 0;
+    
+margin-bottom: 16px;
+}
+.upcoming_section p{
+    
+font-family: 'Montserrat', sans-serif;
+    
+font-size: 16px;
+    
+line-height: 30px;
+}
+.upcoming_img{
+    
+}
+.upcoming_img img{
+    
+}
+/* owl carousel css  */
+.owl-dots span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: rgb(179, 179, 179);
+    border-radius: 50%;
+    margin: 0 3px;
+
+
+}
+.owl-dots .active span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 217, 0);
+    border-radius: 50%;
+    
+
+}
+
+/* contact section start here */
+.contact_section{
+    background-image: url(../images/contact-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 125vh;
+}
+.contact_section h1{font-family: 'Alfa Slab One', cursive;text-transform: uppercase;font-size: 35px;letter-spacing: 1px;}
+.contact_section h5{
+    
+letter-spacing: 2px;
+}
+.contact_section form input:focus{
+    box-shadow: none;
+}
+.contact_section form input[type="submit"]{background: #c70303;color: #fff;letter-spacing: 2px;font-family: Alfa Slab One;text-transform: uppercase;font-size: 12px;padding: 10px 0px;transition: all .3s;}
+.contact_section .submit_btn:hover{
+    background: #ff3131;
+}
+
+/* footer section start here */
+.footer_bg{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.footer_content p{
+
+color: #fff;
+
+margin: 0;
+
+font-family: 'Montserrat', sans-serif;
+
+font-size: 15px;
+
+margin-top: 50px;
+
+margin-left: 25px;
+}
+.footer_content ul{
+    
+margin: 0;
+    
+padding: 0;
+    
+position: absolute;
+    
+bottom: 0;
+}
+.footer_content ul li{
+    
+color: #fff;
+    
+list-style: none;
+    
+margin-top: 10px;
+    
+display: flex;
+    
+align-items: center;
+    
+font-size: 14px;
+    
+letter-spacing: 1px;
+}
+.footer_content ul li i{
+    
+font-size: 30px;
+    
+margin-right: 19px;
+}
+.footer_content ul li i:last-child{
+    color: rgb(194, 14, 14);
+}
+
+
+
+
+/* copy section start here */
+
+.copy_section{
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+
+margin-top: 80px;
+}
+.footer_bg .footer_img{
+
+width: 55%;
+}
+.footer_bg .footer_img img
+{width: 100%;margin-left: 25px;}
+.copy_section h6{
+    
+color: #fff;
+    
+margin: 0;
+    
+font-size: 14px;
+    
+/* margin-top: 100px; */
+    
+margin-left: 25px;
+}
+.footer_social{
+    
+/* display: flex; */
+    
+/* align-items: center; */
+    
+/* justify-content: space-between; */
+}
+.copy_section .footer_social ul{
+    
+margin: 0;
+    
+padding: 0;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-evenly;
+}
+.copy_section .footer_social ul li{
+    
+list-style: none;
+    
+width: 25px;
+    
+height: 25px;
+    
+background: white;
+    
+text-align: center;
+    
+border-radius: 50%;
+transition: all .3s ease-out;
+}
+.copy_section .footer_social ul li i{
+    
+line-height: 25px;
+    
+color: #000;
+    
+font-size: 14px;
+transition: all .3s ease-out;
+}
+.footer_social ul li i:nth-child(1):hover{
+    color: #fff;
+}
+.footer_social ul li:nth-child(1):hover{
+    background-color: #BD081C ;
+    color: #fff;
+}
+.footer_social ul li:nth-child(2):hover{
+    background-color: #4267B2;
+    color: #fff;
+}
+.footer_social ul li:nth-child(3):hover{
+    background-color: #1DA1F2;
+    color: #fff;
+}
+.footer_social ul li:nth-child(4):hover{
+    background-color: 	#25D366;
+    color: #fff;
+}
+.hg{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
